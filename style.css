@@ -6,7 +6,7 @@ body {
   background-color: lightskyblue;
   color: white;
 }
-a{
+a {
   color: white;
 }
 .spacer {
@@ -30,4 +30,17 @@ a{
 }
 .button-panel a:hover {
   background-color: #1675d4;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+}
+.profile-pic {
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+}
+.about-text {
+  display: inline-block;
 }
