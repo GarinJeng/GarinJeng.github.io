@@ -1,9 +1,9 @@
 const box = document.querySelector('.box');
-const boxSize = 20;
+const boxSize = 30;
 let posX = window.innerWidth / 2;
 let posY = window.innerHeight / 2;
-let velocityX = 2;
-let velocityY = 2;
+let velocityX = 3;
+let velocityY = 1;
 
 function update() {
   posX += velocityX;
