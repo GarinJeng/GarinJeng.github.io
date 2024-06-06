@@ -22,10 +22,29 @@
     center {
       padding: 180px 0;
     }
+    .background {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .box {
+      width: 20px;
+      height: 20px;
+      background-color: #FD7E14;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+  <div class="background">
+    <div class="box"></div>
+  </div>
   <div class="button-panel">
       <a href="index.html">Home</a>
       <a href="About_me.html">About Me</a>
@@ -35,6 +54,7 @@
   
   <h2><center>Garin Jeng</center></h2>
   <p></p>
+  <script src="AnimationScript.js"></script>
 </body>
   <div class="spacer"></div>
 </html>
